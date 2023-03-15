@@ -1,0 +1,36 @@
+Model
+ a. food
+  1.int foodId
+  2.String type
+  3.String name
+ 
+ b.user
+  1.int userId
+  2.String userName
+  3.String password
+  4.String firstName
+  5.String lastName
+  6.String location
+  7.boolean admin
+ 
+ c.order
+  1.int orderId
+  2.food foodId
+  3.user userId
+  
+ Controller
+ a.food
+  1.createfood
+  2.getfood
+  3.updatefood
+  4.deletefood
+ 
+ b.user
+  1.createUser
+  
+ c.order
+  1.createOrder
+  2.getOrder
+  
+Service
+a.userService

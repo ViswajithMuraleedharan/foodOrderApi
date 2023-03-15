@@ -23,10 +23,7 @@ public class userService {
         }
         else{
             boolean admin= object.getBoolean("admin");
-            if(admin==false){
-                user1.setAdmin(false);
-            }
-            else user1.setAdmin(true);
+           user1.setAdmin(admin);
         }
         return user1;
     }
