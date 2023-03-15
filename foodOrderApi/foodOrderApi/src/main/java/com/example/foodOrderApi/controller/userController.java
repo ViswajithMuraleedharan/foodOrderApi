@@ -24,9 +24,14 @@ public class userController {
 
     public boolean validateAdmin(String userName, String password) {
         List<user> userList=repository.getUser(userName,password);
-        user user1=userList.get(0);
-        boolean admin=user1.isAdmin();
-         return admin;
+        if(userList.isEmpty()){
+            return false;
+        }
+        else{
+            user user1=userList.get(0);
+            boolean admin=user1.isAdmin();
+            return admin;
+        }
     }
 
     @PostMapping("/createUser")
