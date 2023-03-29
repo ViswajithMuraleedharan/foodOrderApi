@@ -3,8 +3,6 @@
 
 This is a RESTful API backend project for a food ordering system. The API allows users to create and manage food orders, view menus.
 
-Deployment link: http://3.110.174.96:8080/swagger-ui/index.html
-
 ## Technologies Used
       *  Spring Boot
       *  Java
