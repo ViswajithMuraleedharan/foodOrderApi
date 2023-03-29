@@ -1,6 +1,9 @@
 # Food Order API
 
-This is a RESTful API backend project for a food ordering system. The API allows users to create and manage food orders, view menus, and make payments.
+
+This is a RESTful API backend project for a food ordering system. The API allows users to create and manage food orders, view menus.
+
+Deployment link: http://3.110.174.96:8080/swagger-ui/index.html
 
 ## Technologies Used
       *  Spring Boot
@@ -39,6 +42,6 @@ You can access the API documentation using Swagger at http://localhost:8080/swag
 * GET (/getUser):  Retrieve all user
 * POST (/createUser): Create a user
 
-Validation
+## Validation
 User inputs are validated using Hibernate Validator for username and password.
 If validation fails, appropriate error messages are returned in the response
